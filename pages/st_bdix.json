@@ -1,0 +1,29 @@
+{
+  "headline": "BDIX Streaming",
+  "items": [
+    {
+      "title": "Circle Network",
+      "icon": "tv",
+      "image": "http://placehold.it/150x100",
+      "action": "link:https://new.circleftp.net"
+    },
+    {
+      "title": "Circle HD",
+      "icon": "tv",
+      "image": "http://placehold.it/150x100",
+      "action": "link:https://hd.circleftp.net"
+    },
+    {
+      "title": "RoarZone",
+      "icon": "tv",
+      "image": "http://placehold.it/150x100",
+      "action": "link:https://play.roarzone.net/web/index.html"
+    },
+    {
+      "title": "MovieLinkBD",
+      "icon": "tv",
+      "image": "http://placehold.it/150x100",
+      "action": "link:https://e7htac.movielinkbd.li/"
+    }
+  ]
+}
