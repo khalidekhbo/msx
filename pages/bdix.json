@@ -1,0 +1,87 @@
+{
+  "headline": "BDIX IPTV",
+
+  "items": [
+
+    {
+      "title": "IPTV IDN",
+      "action": "link:http://iptvidn.com/"
+    },
+
+    {
+      "title": "BD IPTV",
+      "action": "link:http://tv.bdiptv.net/"
+    },
+
+    {
+      "title": "BDIX24",
+      "action": "link:https://bdix24.com/"
+    },
+
+    {
+      "title": "COM BD TV",
+      "action": "link:http://ftp.com.bd/livetv.html"
+    },
+
+    {
+      "title": "CTG TV",
+      "action": "link:http://www.ctgtv.live/"
+    },
+
+    {
+      "title": "Movie Bazar",
+      "action": "link:http://tv.mymoviebazar.net/"
+    },
+
+    {
+      "title": "BD IPTV Stream",
+      "action": "link:https://bdiptv.stream/"
+    },
+
+    {
+      "title": "Nagordola",
+      "action": "link:http://nagordola.live/"
+    },
+
+    {
+      "title": "Salam Online",
+      "action": "link:https://salamonline.com.bd/live-tv/"
+    },
+
+    {
+      "title": "VCBD",
+      "action": "link:https://www.vcbd.net/tv.html"
+    },
+
+    {
+      "title": "Watcho",
+      "action": "link:https://www.watcho.com/live-tv"
+    },
+
+    {
+      "title": "LiveTV BD",
+      "action": "link:https://livetv.com.bd/"
+    },
+
+    {
+      "title": "T Sports",
+      "action": "link:https://www.tsports.com/live-tv"
+    },
+
+    {
+      "title": "JagoBD",
+      "action": "link:https://www.jagobd.com/"
+    },
+
+    {
+      "title": "Free Inter TV",
+      "action": "link:http://www.freeintertv.com/"
+    },
+
+    {
+      "title": "Abohoman Bangla",
+      "action": "link:https://www.abohomanbangla.com/Bangladesh_web_directory/Bangla_Tv.html"
+    }
+
+  ]
+}
