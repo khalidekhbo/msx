@@ -1,56 +1,54 @@
 {
-  "name": "Main Menu",
-  "menus": [
-
-    {
-      "title": "Home",
-      "items": [
+    "headline": "Media Station X",
+    "menu": [
         {
-          "title": "Clock Home",
-          "url": "start:https://khalidekhbo.github.io/msx/home.html"
+            "icon": "home",
+            "label": "Home",
+            "data": "https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/home.json"
+        },
+        {
+            "type": "separator",
+            "label": "Streaming"
+        },
+        {
+            "icon": "smart-display",
+            "label": "YouTube",
+            "data": "link:https://www.youtube.com/tv"
+        },
+        {
+            "icon": "movie",
+            "label": "IMDB",
+            "data": "link:https://www.imdb.com"
+        },
+        {
+            "icon": "circle",
+            "label": "Circle Network",
+            "data": "link:http://new.circleftp.net"
+        },
+        {
+            "icon": "circle",
+            "label": "Circle HD",
+            "data": "link:http://hd.circleftp.net"
+        },
+        {
+            "type": "separator",
+            "label": "IPTV"
+        },
+        {
+            "icon": "tv",
+            "label": "GHub",
+            "data": "http://msx.benzac.de/services/m3u.php?url=https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/tv.m3u"
+        },
+        {
+            "icon": "apps",
+            "label": "BDIX",
+            "data": "https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/bdix.json"
+            "data": "content:https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/bdix.json"
+        },
+        {
+            "icon": "tv",
+            "label": "SKY",
+            "data": "http://msx.benzac.de/services/m3u.php?url=https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/sky.m3u"
         }
-      ]
-    },
-
-    {
-      "title": "Streaming",
-      "items": [
-        {
-          "title": "YouTube",
-          "url": "start:https://www.youtube.com"
-        },
-        {
-          "title": "IMDb",
-          "url": "start:https://www.imdb.com"
-        },
-        {
-          "title": "Circle Movie",
-          "url": "start:https://new.circleftp.net"
-        },
-        {
-          "title": "Circle HD",
-          "url": "start:https://hd.circleftp.net"
-        }
-      ]
-    },
-
-    {
-      "title": "IPTV",
-      "items": [
-        {
-          "title": "GHub TV Grid",
-          "url": "menu:https://raw.githubusercontent.com/khalidekhbo/msx/main/m3u_final/tv.m3u"
-        },
-        {
-          "title": "CTV WebApp",
-          "url": "start:http://ipvidn.com"
-        },
-        {
-          "title": "SKY TV Grid",
-          "url": "menu:https://raw.githubusercontent.com/khalidekhbo/msx/main/m3u_final/sky.m3u"
-        }
-      ]
-    }
-
-  ]
+    ]
 }
