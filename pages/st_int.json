@@ -2,16 +2,25 @@
   "headline": "International Streaming",
   "items": [
     {
+      "layout": "0,0,4,2",
       "title": "YouTube",
       "icon": "youtube",
-      "image": "http://placehold.it/150x100",
+      "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/yt.png",
       "action": "link:https://www.youtube.com"
     },
     {
+      "layout": "4,0,4,2",
       "title": "StreamIMDb",
       "icon": "search",
-      "image": "http://placehold.it/150x100",
+      "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/imdb.png",
       "action": "link:https://www.streamimdb.ru"
+    },
+    {
+      "layout": "8,0,4,2",
+      "title": "BiliBili",
+      "icon": "tv",
+      "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/bilibili.png",
+      "action": "link:https://www.bilibili.tv/en"
     }
   ]
 }
