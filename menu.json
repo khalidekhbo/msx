@@ -1,0 +1,53 @@
+{
+    "headline": "Media Station X",
+    "menu": [
+        {
+            "icon": "home",
+            "label": "Home",
+            "data": "https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/home.json"
+        },
+        {
+            "type": "separator",
+            "label": "Streaming"
+        },
+        {
+            "icon": "smart-display",
+            "label": "YouTube",
+            "data": "browser:https://www.youtube.com/tv"
+        },
+        {
+            "icon": "movie",
+            "label": "IMDB",
+            "data": "browser:https://www.imdb.com"
+        },
+        {
+            "icon": "circle",
+            "label": "Circle Network",
+            "data": "browser:http://new.circleftp.net"
+        },
+        {
+            "icon": "circle",
+            "label": "Circle HD",
+            "data": "browser:http://hd.circleftp.net"
+        },
+        {
+            "type": "separator",
+            "label": "IPTV"
+        },
+        {
+            "icon": "tv",
+            "label": "GHub",
+            "data": "http://msx.benzac.de/services/m3u.php?url=https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/tv.m3u"
+        },
+        {
+            "icon": "apps",
+            "label": "BDIX",
+            "data": "https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/bdix.json"
+        },
+        {
+            "icon": "tv",
+            "label": "SKY",
+            "data": "http://msx.benzac.de/services/m3u.php?url=https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/sky.m3u"
+        }
+    ]
+}
