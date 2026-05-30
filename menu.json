@@ -13,22 +13,22 @@
         {
             "icon": "smart-display",
             "label": "YouTube",
-            "data": "browser:https://www.youtube.com/tv"
+            "data": "link:https://www.youtube.com/tv"
         },
         {
             "icon": "movie",
             "label": "IMDB",
-            "data": "browser:https://www.imdb.com"
+            "data": "link:https://www.imdb.com"
         },
         {
             "icon": "circle",
             "label": "Circle Network",
-            "data": "browser:http://new.circleftp.net"
+            "data": "link:http://new.circleftp.net"
         },
         {
             "icon": "circle",
             "label": "Circle HD",
-            "data": "browser:http://hd.circleftp.net"
+            "data": "link:http://hd.circleftp.net"
         },
         {
             "type": "separator",
