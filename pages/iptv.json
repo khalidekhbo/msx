@@ -1,0 +1,25 @@
+{
+  "headline": "IPTV",
+
+  "items": [
+
+    {
+      "title": "GHub",
+      "icon": "tv",
+      "action": "player:m3u:https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/tv.m3u"
+    },
+
+    {
+      "title": "BDIX",
+      "icon": "folder",
+      "action": "content:https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/bdix.json"
+    },
+
+    {
+      "title": "SKY",
+      "icon": "tv",
+      "action": "player:m3u:https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/sky.m3u"
+    }
+
+  ]
+}
