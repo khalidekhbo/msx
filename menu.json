@@ -1,12 +1,12 @@
 {
   "name": "Main Menu",
   "menus": [
+
     {
       "title": "Home",
       "items": [
         {
-          "title": "Dashboard (Clock)",
-          "type": "web",
+          "title": "Clock Home",
           "url": "start:https://khalidekhbo.github.io/msx/home.html"
         }
       ]
@@ -17,22 +17,18 @@
       "items": [
         {
           "title": "YouTube",
-          "type": "web",
           "url": "start:https://www.youtube.com"
         },
         {
           "title": "IMDb",
-          "type": "web",
           "url": "start:https://www.imdb.com"
         },
         {
           "title": "Circle Movie",
-          "type": "web",
           "url": "start:https://new.circleftp.net"
         },
         {
           "title": "Circle HD",
-          "type": "web",
           "url": "start:https://hd.circleftp.net"
         }
       ]
@@ -42,21 +38,19 @@
       "title": "IPTV",
       "items": [
         {
-          "title": "GHub (TV Grid)",
-          "type": "video",
-          "url": "menu:https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/tv.m3u"
+          "title": "GHub TV Grid",
+          "url": "menu:https://raw.githubusercontent.com/khalidekhbo/msx/main/m3u_final/tv.m3u"
         },
         {
           "title": "CTV WebApp",
-          "type": "web",
           "url": "start:http://ipvidn.com"
         },
         {
-          "title": "SKY (Grid IPTV)",
-          "type": "video",
-          "url": "menu:https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/sky.m3u"
+          "title": "SKY TV Grid",
+          "url": "menu:https://raw.githubusercontent.com/khalidekhbo/msx/main/m3u_final/sky.m3u"
         }
       ]
     }
+
   ]
 }
