@@ -1,6 +1,8 @@
-{
+{ 
+  "type": "pages",
   "headline": "BDIX IPTV",
-
+"pages": [
+  {
   "items": [
 
     {
@@ -84,4 +86,6 @@
     }
 
   ]
+  }
+]
 }
