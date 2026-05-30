@@ -1,25 +1,8 @@
 {
-  "start": {
-    "headline": "Media Station X",
-    "title": "Main Menu",
-    "message": "Welcome to MSX",
-    "background": "000000",
-    "menu": [
-      {
-        "title": "Home",
-        "description": "Current time and date",
-        "action": "page:home"
-      },
-      {
-        "title": "Streaming",
-        "description": "YouTube, IMDB, Circle Network",
-        "action": "page:streaming"
-      },
-      {
-        "title": "IPTV",
-        "description": "GHub, BDIX, SKY",
-        "action": "page:iptv"
-      }
-    ]
-  }
+    "name": "Media Station X",
+    "version": "1.0.0",
+    "parameter": "menu:https://raw.githubusercontent.com/khalidekhbo/msx/main/menu.json",
+    "launcher": {
+        "icon": "pages"
+    }
 }
