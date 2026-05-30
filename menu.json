@@ -1,53 +1,106 @@
 {
-    "headline": "Media Station X",
-    "menu": [
-        {
-            "icon": "home",
-            "label": "Home",
-            "data": "https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/home.json"
+  "menu": {
+    "type": "msx",
+    "sections": [
+      {
+        "id": "home",
+        "title": "Home",
+        "layout": {
+          "type": "center"
         },
-        {
-            "type": "separator",
-            "label": "Streaming"
-        },
-        {
-            "icon": "smart-display",
-            "label": "YouTube",
-            "data": "link:https://www.youtube.com/tv"
-        },
-        {
-            "icon": "movie",
-            "label": "IMDB",
-            "data": "link:https://www.imdb.com"
-        },
-        {
-            "icon": "circle",
-            "label": "Circle Network",
-            "data": "link:http://new.circleftp.net"
-        },
-        {
-            "icon": "circle",
-            "label": "Circle HD",
-            "data": "link:http://hd.circleftp.net"
-        },
-        {
-            "type": "separator",
-            "label": "IPTV"
-        },
-        {
-            "icon": "tv",
-            "label": "GHub",
-            "data": "http://msx.benzac.de/services/m3u.php?url=https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/tv.m3u"
-        },
-        {
-            "icon": "apps",
-            "label": "BDIX",
-            "data": "content:https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/bdix.json"
-        },
-        {
-            "icon": "tv",
-            "label": "SKY",
-            "data": "http://msx.benzac.de/services/m3u.php?url=https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/sky.m3u"
+        "widgets": [
+          {
+            "type": "clock",
+            "format": "datetime",
+            "font": {
+              "family": "Harlow Solid Italic",
+              "size": 48,
+              "style": "italic"
+            }
+          }
+        ]
+      },
+      {
+        "id": "streaming",
+        "title": "Streaming",
+        "separator": true,
+        "items": [
+          {
+            "id": "youtube",
+            "title": "YouTube",
+            "type": "link",
+            "href": "https://www.youtube.com/"
+          },
+          {
+            "id": "imdb",
+            "title": "IMDB",
+            "type": "link",
+            "href": "https://www.imdb.com/"
+          },
+          {
+            "id": "circle_network",
+            "title": "Circle Network",
+            "type": "link",
+            "href": "http://new.circleftp.net/"
+          },
+          {
+            "id": "circle_hd",
+            "title": "Circle HD",
+            "type": "link",
+            "href": "http://hd.circleftp.net/"
+          }
+        ]
+      },
+      {
+        "id": "iptv",
+        "title": "IPTV",
+        "separator": true,
+        "pages": [
+          {
+            "id": "ghub",
+            "title": "GHub",
+            "type": "m3u_player",
+            "source": "src/m3u_final/tv.m3u",
+            "m3uProxy": {
+              "base": "http://msx.benzac.de/services/m3u.php?url=",
+              "useProxy": true
+            },
+            "view": {
+              "mode": "grid",
+              "default": "grid"
+            }
+          },
+          {
+            "id": "bdix",
+            "title": "BDIX",
+            "type": "bdix_page",
+            "urlsFile": "src/bdix_urls.json",
+            "view": {
+              "mode": "grid"
+            }
+          },
+          {
+            "id": "sky",
+            "title": "SKY",
+            "type": "m3u_player",
+            "source": "src/m3u_final/sky.m3u",
+            "m3uProxy": {
+              "base": "http://msx.benzac.de/services/m3u.php?url=",
+              "useProxy": true
+            },
+            "view": {
+              "mode": "grid",
+              "default": "grid"
+            }
+          }
+        ],
+        "viewModeSelector": {
+          "enabled": true,
+          "options": ["grid", "list"],
+          "targetPlayers": ["ghub", "sky"]
         }
+      }
     ]
+  }
 }
+
