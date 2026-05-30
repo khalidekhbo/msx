@@ -1,16 +1,33 @@
 {
   "type": "pages",
-  "title": "BDIX Streaming",
+  "headline": "BDIX Streaming",
   "items": [
     {
+      "layout": "0,0,3,2",
       "title": "Circle Network",
-      "image": "https://raw.githubusercontent.com/khalidekhbo/msx/main/src/icons/cftp.png",
+      "icon": "tv",
+      "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/cftp.png",
       "action": "link:https://new.circleftp.net"
     },
     {
+      "layout": "3,0,3,2",
       "title": "Circle HD",
-      "image": "https://raw.githubusercontent.com/khalidekhbo/msx/main/src/icons/cftp.png",
+      "icon": "tv",
+      "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/cftp.png",
       "action": "link:https://hd.circleftp.net"
+    },
+    {
+      "layout": "6,0,3,2",
+      "title": "RoarZone",
+      "icon": "tv",
+      "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/roarzone.png",
+      "action": "link:https://play.roarzone.net/web/index.html"
+    },
+    {
+      "layout": "9,0,3,2",
+      "title": "MovieLinkBD",
+      "icon": "tv",
+      "action": "link:https://e7htac.movielinkbd.li/"
     }
   ]
 }
