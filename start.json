@@ -1,114 +1,24 @@
 {
-  "name": "MSX",
-  "version": "1.0.2",
-  "icon": "https://raw.githubusercontent.com/khalidekhbo/msx/main/icon.png",
-  "background": "https://raw.githubusercontent.com/khalidekhbo/msx/main/bg.jpg",
-  "response": {
-    "type": "menu",
-    "style": {
-      "display": "list"
-    },
-    "items": [
+  "start": {
+    "headline": "Media Station X",
+    "title": "Main Menu",
+    "message": "Welcome to MSX",
+    "background": "000000",
+    "menu": [
       {
-        "type": "space",
-        "layout": "0,0,12,1"
+        "title": "Home",
+        "description": "Current time and date",
+        "action": "page:home"
       },
       {
-        "label": "{rtc.time}\n{rtc.date}",
-        "type": "static",
-        "layout": "3,1,6,2",
-        "style": {
-          "labelAlign": "center",
-          "labelFont": "italic bold 36px 'Harlow Solid Italic', sans-serif",
-          "labelColor": "#ffffff"
-        }
+        "title": "Streaming",
+        "description": "YouTube, IMDB, Circle Network",
+        "action": "page:streaming"
       },
       {
-        "type": "space",
-        "layout": "0,3,12,1"
-      },
-      {
-        "label": "Streaming",
-        "type": "separator",
-        "layout": "0,4,12,1"
-      },
-      {
-        "label": "YouTube",
-        "icon": "youtube",
-        "type": "button",
-        "layout": "0,5,3,1",
-        "action": "link:https://www.youtube.com"
-      },
-      {
-        "label": "IMDB",
-        "icon": "movie",
-        "type": "button",
-        "layout": "3,5,3,1",
-        "action": "link:https://www.imdb.com"
-      },
-      {
-        "label": "Circle Network",
-        "icon": "web",
-        "type": "button",
-        "layout": "6,5,3,1",
-        "action": "link:http://new.circleftp.net"
-      },
-      {
-        "label": "Circle HD",
-        "icon": "hd",
-        "type": "button",
-        "layout": "9,5,3,1",
-        "action": "link:http://hd.circleftp.net"
-      },
-      {
-        "label": "IPTV",
-        "type": "separator",
-        "layout": "0,6,12,1"
-      },
-      {
-        "label": "GHub",
-        "icon": "tv",
-        "type": "button",
-        "layout": "0,7,4,1",
-        "action": "video:http://msx.benzac.de/services/m3u.php?headline=GHub%20TV&background=https%3A%2F%2Fraw.githubusercontent.com%2Fkhalidekhbo%2Fmsx%2Fmain%2Fbg.jpg&type=video&mode=playlist&url=https%3A%2F%2Fraw.githubusercontent.com%2Fkhalidekhbo%2Fmsx%2Fmain%2Fsrc%2Fm3u_final%2Ftv.m3u"
-      },
-      {
-        "label": "BDIX TV",
-        "icon": "list",
-        "type": "button",
-        "layout": "4,7,4,1",
-        "action": "panel:data",
-        "data": {
-          "pages": [
-            {
-              "items": [
-                { "label": "IPTV IDN", "type": "button", "action": "link:http://iptvidn.com/" },
-                { "label": "BDIPTV", "type": "button", "action": "link:http://tv.bdiptv.net/" },
-                { "label": "BDIX24", "type": "button", "action": "link:https://bdix24.com/" },
-                { "label": "FTP Live TV", "type": "button", "action": "link:http://ftp.com.bd/livetv.html" },
-                { "label": "CTG TV", "type": "button", "action": "link:http://www.ctgtv.live/" },
-                { "label": "MyMovieBazar", "type": "button", "action": "link:http://tv.mymoviebazar.net/" },
-                { "label": "BDIV Stream", "type": "button", "action": "link:https://bdiptv.stream/" },
-                { "label": "Nagordola", "type": "button", "action": "link:http://nagordola.live/" },
-                { "label": "Salam Online", "type": "button", "action": "link:https://salamonline.com.bd/live-tv/" },
-                { "label": "VCBD TV", "type": "button", "action": "link:https://www.vcbd.net/tv.html" },
-                { "label": "Watcho", "type": "button", "action": "link:https://www.watcho.com/live-tv" },
-                { "label": "LiveTV BD", "type": "button", "action": "link:https://livetv.com.bd/" },
-                { "label": "T Sports", "type": "button", "action": "link:https://www.tsports.com/live-tv" },
-                { "label": "JagoBD", "type": "button", "action": "link:https://www.jagobd.com/" },
-                { "label": "FreeInterTV", "type": "button", "action": "http://www.freeintertv.com/" },
-                { "label": "Abohoman Bangla", "type": "button", "action": "link:https://www.abohomanbangla.com/Bangladesh_web_directory/Bangla_Tv.html" }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "label": "SKY",
-        "icon": "stars",
-        "type": "button",
-        "layout": "8,7,4,1",
-        "action": "video:http://msx.benzac.de/services/m3u.php?headline=SKY%20IPTV&background=https%3A%2F%2Fraw.githubusercontent.com%2Fkhalidekhbo%2Fmsx%2Fmain%2Fbg.jpg&type=video&mode=playlist&url=https%3A%2F%2Fraw.githubusercontent.com%2Fkhalidekhbo%2Fmsx%2Fmain%2Fsrc%2Fm3u_final%2Fsky.m3u"
+        "title": "IPTV",
+        "description": "GHub, BDIX, SKY",
+        "action": "page:iptv"
       }
     ]
   }
