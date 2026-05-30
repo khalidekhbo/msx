@@ -1,0 +1,19 @@
+{
+  "headline": "Media Center",
+  "menu": [
+    {
+      "title": "Home",
+      "action": "content:https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/home.json"
+    },
+
+    {
+      "title": "Streaming",
+      "action": "content:https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/streaming.json"
+    },
+
+    {
+      "title": "IPTV",
+      "action": "content:https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/iptv.json"
+    }
+  ]
+}
