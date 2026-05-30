@@ -1,0 +1,17 @@
+{
+  "headline": "International Streaming",
+  "items": [
+    {
+      "title": "YouTube",
+      "icon": "youtube",
+      "image": "http://placehold.it/150x100",
+      "action": "link:https://www.youtube.com"
+    },
+    {
+      "title": "IMDb",
+      "icon": "search",
+      "image": "http://placehold.it/150x100",
+      "action": "link:https://www.streamimdb.ru"
+    }
+  ]
+}
