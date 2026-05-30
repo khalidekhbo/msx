@@ -6,102 +6,39 @@
       "items": [
         {
           "type": "default",
-          "layout": "0,0,3,2",
           "title": "IPTV IDN",
+          "icon": "tv",
           "action": "link:http://iptvidn.com/"
         },
         {
           "type": "default",
-          "layout": "3,0,3,2",
           "title": "BD IPTV",
+          "icon": "tv",
           "action": "link:http://tv.bdiptv.net/"
         },
         {
           "type": "default",
-          "layout": "6,0,3,2",
-          "title": "BDIX24",
-          "action": "link:https://bdix24.com/"
+          "title": "Obiram TV Live",
+          "icon": "tv",
+          "action": "link:https://obiramtvlive.pages.dev/"
         },
         {
           "type": "default",
-          "layout": "9,0,3,2",
-          "title": "COM BD TV",
-          "action": "link:http://ftp.com.bd/livetv.html"
-        },
-
-        {
-          "type": "default",
-          "layout": "0,2,3,2",
-          "title": "CTG TV",
-          "action": "link:http://www.ctgtv.live/"
-        },
-        {
-          "type": "default",
-          "layout": "3,2,3,2",
-          "title": "Movie Bazar",
-          "action": "link:http://tv.mymoviebazar.net/"
-        },
-        {
-          "type": "default",
-          "layout": "6,2,3,2",
-          "title": "BD IPTV Stream",
-          "action": "link:https://bdiptv.stream/"
-        },
-        {
-          "type": "default",
-          "layout": "9,2,3,2",
-          "title": "Nagordola",
-          "action": "link:http://nagordola.live/"
-        },
-
-        {
-          "type": "default",
-          "layout": "0,4,3,2",
-          "title": "Salam Online",
-          "action": "link:https://salamonline.com.bd/live-tv/"
-        },
-        {
-          "type": "default",
-          "layout": "3,4,3,2",
-          "title": "VCBD",
-          "action": "link:https://www.vcbd.net/tv.html"
-        },
-        {
-          "type": "default",
-          "layout": "6,4,3,2",
-          "title": "Watcho",
-          "action": "link:https://www.watcho.com/live-tv"
-        },
-        {
-          "type": "default",
-          "layout": "9,4,3,2",
-          "title": "LiveTV BD",
-          "action": "link:https://livetv.com.bd/"
-        },
-
-        {
-          "type": "default",
-          "layout": "0,6,3,2",
           "title": "T Sports",
+          "icon": "tv",
           "action": "link:https://www.tsports.com/live-tv"
         },
         {
           "type": "default",
-          "layout": "3,6,3,2",
           "title": "JagoBD",
+          "icon": "tv",
           "action": "link:https://www.jagobd.com/"
         },
         {
           "type": "default",
-          "layout": "6,6,3,2",
           "title": "Free Inter TV",
+          "icon": "tv",
           "action": "link:http://www.freeintertv.com/"
-        },
-        {
-          "type": "default",
-          "layout": "9,6,3,2",
-          "title": "Abohoman Bangla",
-          "action": "link:https://www.abohomanbangla.com/Bangladesh_web_directory/Bangla_Tv.html"
         }
       ]
     }
