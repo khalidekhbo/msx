@@ -1,12 +1,7 @@
 {
     "headline": "Media Station X",
     "menu": [
-        {
-            "icon": "home",
-            "label": "Home",
-            "data": "https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/home.json"
-        },
-        {
+       {
             "type": "separator",
             "label": "Streaming"
         },
