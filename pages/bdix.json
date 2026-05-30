@@ -6,36 +6,42 @@
       "items": [
         {
           "type": "default",
+          "layout": "0,0,3,2",
           "title": "IPTV IDN",
           "icon": "tv",
           "action": "link:http://iptvidn.com/"
         },
         {
           "type": "default",
+          "layout": "3,0,3,2",
           "title": "BD IPTV",
           "icon": "tv",
           "action": "link:http://tv.bdiptv.net/"
         },
         {
           "type": "default",
+          "layout": "6,0,3,2",
           "title": "Obiram TV Live",
           "icon": "tv",
           "action": "link:https://obiramtvlive.pages.dev/"
         },
         {
           "type": "default",
+          "layout": "9,0,3,2",
           "title": "T Sports",
           "icon": "tv",
           "action": "link:https://www.tsports.com/live-tv"
         },
         {
           "type": "default",
+          "layout": "0,2,3,2",
           "title": "JagoBD",
           "icon": "tv",
           "action": "link:https://www.jagobd.com/"
         },
         {
           "type": "default",
+          "layout": "3,2,3,2",
           "title": "Free Inter TV",
           "icon": "tv",
           "action": "link:http://www.freeintertv.com/"
