@@ -1,16 +1,13 @@
 {
+  "type": "pages",
   "headline": "Home",
   "template": "rows",
 
   "items": [
     {
-      "title": "{context:datetime}",
-      "layout": "0,0,12,2"
-    },
-
-    {
-      "title": "{context:date}",
-      "layout": "0,2,12,1"
+       "type": "webview",
+        "url": "https://google.com/"
     }
+    
   ]
 }
