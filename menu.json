@@ -23,7 +23,7 @@
         {
             "icon": "apps",
             "label": "BDIX",
-            "data": "content:https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/bdix.json"
+            "data": "https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/bdix.json"
         },
         {
             "icon": "tv",
