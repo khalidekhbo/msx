@@ -13,16 +13,13 @@
         {
             "icon": "stream",
             "label": "Internet",
-            "data": "https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/st_int.json"
-            
+            "data": "https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/st_int.json"   
         },
         {
             "icon": "settings-ethernet",
             "label": "BDIX",
             "data": "https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/st_bdix.json"
-            
         },
-       
         {
             "type": "separator",
             "label": "IPTV"
