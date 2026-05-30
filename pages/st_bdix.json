@@ -3,6 +3,7 @@
   "headline": "BDIX Streaming",
   "items": [
     {
+      "type": "default"
       "layout": "0,0,3,2",
       "title": "Circle Network",
       "icon": "tv",
@@ -10,6 +11,7 @@
       "action": "link:https://new.circleftp.net"
     },
     {
+      "type": "default"
       "layout": "3,0,3,2",
       "title": "Circle HD",
       "icon": "tv",
@@ -17,6 +19,7 @@
       "action": "link:https://hd.circleftp.net"
     },
     {
+      "type": "default"
       "layout": "6,0,3,2",
       "title": "RoarZone",
       "icon": "tv",
@@ -24,6 +27,7 @@
       "action": "link:https://play.roarzone.net/web/index.html"
     },
     {
+      "type": "default"
       "layout": "9,0,3,2",
       "title": "MovieLinkBD",
       "icon": "tv",
