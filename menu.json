@@ -10,26 +10,7 @@
             "type": "separator",
             "label": "Streaming"
         },
-        {
-            "icon": "smart-display",
-            "label": "YouTube",
-            "data": "link:https://www.youtube.com/tv"
-        },
-        {
-            "icon": "movie",
-            "label": "IMDB",
-            "data": "link:https://www.imdb.com"
-        },
-        {
-            "icon": "circle",
-            "label": "Circle Network",
-            "data": "link:http://new.circleftp.net"
-        },
-        {
-            "icon": "circle",
-            "label": "Circle HD",
-            "data": "link:http://hd.circleftp.net"
-        },
+       
         {
             "type": "separator",
             "label": "IPTV"
