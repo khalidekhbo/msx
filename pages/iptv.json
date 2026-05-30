@@ -6,7 +6,7 @@
     {
       "title": "GHub",
       "icon": "tv",
-      "action": "player:m3u:https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/tv.m3u"
+      "action": "content:http://msx.benzac.de/services/m3u.php?headline=GHub&type=video&mode=extended-header&url=https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/tv.m3u"
     },
 
     {
@@ -18,7 +18,7 @@
     {
       "title": "SKY",
       "icon": "tv",
-      "action": "player:m3u:https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/sky.m3u"
+      "action": "content:http://msx.benzac.de/services/m3u.php?headline=SKY&type=video&mode=extended-header&url=https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/sky.m3u"
     }
 
   ]
