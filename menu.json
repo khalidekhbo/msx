@@ -1,106 +1,62 @@
 {
-  "menu": {
-    "type": "msx",
-    "sections": [
-      {
-        "id": "home",
-        "title": "Home",
-        "layout": {
-          "type": "center"
-        },
-        "widgets": [
-          {
-            "type": "clock",
-            "format": "datetime",
-            "font": {
-              "family": "Harlow Solid Italic",
-              "size": 48,
-              "style": "italic"
-            }
-          }
-        ]
-      },
-      {
-        "id": "streaming",
-        "title": "Streaming",
-        "separator": true,
-        "items": [
-          {
-            "id": "youtube",
-            "title": "YouTube",
-            "type": "link",
-            "href": "https://www.youtube.com/"
-          },
-          {
-            "id": "imdb",
-            "title": "IMDB",
-            "type": "link",
-            "href": "https://www.imdb.com/"
-          },
-          {
-            "id": "circle_network",
-            "title": "Circle Network",
-            "type": "link",
-            "href": "http://new.circleftp.net/"
-          },
-          {
-            "id": "circle_hd",
-            "title": "Circle HD",
-            "type": "link",
-            "href": "http://hd.circleftp.net/"
-          }
-        ]
-      },
-      {
-        "id": "iptv",
-        "title": "IPTV",
-        "separator": true,
-        "pages": [
-          {
-            "id": "ghub",
-            "title": "GHub",
-            "type": "m3u_player",
-            "source": "src/m3u_final/tv.m3u",
-            "m3uProxy": {
-              "base": "http://msx.benzac.de/services/m3u.php?url=",
-              "useProxy": true
-            },
-            "view": {
-              "mode": "grid",
-              "default": "grid"
-            }
-          },
-          {
-            "id": "bdix",
-            "title": "BDIX",
-            "type": "bdix_page",
-            "urlsFile": "src/bdix_urls.json",
-            "view": {
-              "mode": "grid"
-            }
-          },
-          {
-            "id": "sky",
-            "title": "SKY",
-            "type": "m3u_player",
-            "source": "src/m3u_final/sky.m3u",
-            "m3uProxy": {
-              "base": "http://msx.benzac.de/services/m3u.php?url=",
-              "useProxy": true
-            },
-            "view": {
-              "mode": "grid",
-              "default": "grid"
-            }
-          }
-        ],
-        "viewModeSelector": {
-          "enabled": true,
-          "options": ["grid", "list"],
-          "targetPlayers": ["ghub", "sky"]
+  "name": "Main Menu",
+  "menus": [
+    {
+      "title": "Home",
+      "items": [
+        {
+          "title": "Dashboard (Clock)",
+          "type": "web",
+          "url": "start:https://khalidekhbo.github.io/msx/home.html"
         }
-      }
-    ]
-  }
-}
+      ]
+    },
 
+    {
+      "title": "Streaming",
+      "items": [
+        {
+          "title": "YouTube",
+          "type": "web",
+          "url": "start:https://www.youtube.com"
+        },
+        {
+          "title": "IMDb",
+          "type": "web",
+          "url": "start:https://www.imdb.com"
+        },
+        {
+          "title": "Circle Movie",
+          "type": "web",
+          "url": "start:https://new.circleftp.net"
+        },
+        {
+          "title": "Circle HD",
+          "type": "web",
+          "url": "start:https://hd.circleftp.net"
+        }
+      ]
+    },
+
+    {
+      "title": "IPTV",
+      "items": [
+        {
+          "title": "GHub (TV Grid)",
+          "type": "video",
+          "url": "menu:https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/tv.m3u"
+        },
+        {
+          "title": "CTV WebApp",
+          "type": "web",
+          "url": "start:http://ipvidn.com"
+        },
+        {
+          "title": "SKY (Grid IPTV)",
+          "type": "video",
+          "url": "menu:https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/sky.m3u"
+        }
+      ]
+    }
+  ]
+}
