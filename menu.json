@@ -42,7 +42,6 @@
         {
             "icon": "apps",
             "label": "BDIX",
-            "data": "https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/bdix.json"
             "data": "content:https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/bdix.json"
         },
         {
