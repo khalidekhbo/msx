@@ -6,21 +6,21 @@
       "layout": "0,0,3,2",
       "title": "Circle Network",
       "icon": "tv",
-      "pmage": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/cftp.png",
+      "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/cftp.png",
       "action": "link:https://new.circleftp.net"
     },
     {
       "layout": "3,0,3,2",
       "title": "Circle HD",
       "icon": "tv",
-      "pmage": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/cftp.png",
+      "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/cftp.png",
       "action": "link:https://hd.circleftp.net"
     },
     {
       "layout": "6,0,3,2",
       "title": "RoarZone",
       "icon": "tv",
-      "pmage": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/roarzone.png",
+      "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/roarzone.png",
       "action": "link:https://play.roarzone.net/web/index.html"
     },
     {
