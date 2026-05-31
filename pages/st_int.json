@@ -1,6 +1,8 @@
 {
   "type": "pages",
   "headline": "International Streaming",
+  "pages": [
+    {
   "items": [
     {
       "layout": "0,0,4,2",
@@ -22,6 +24,8 @@
       "icon": "tv",
       "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/bilibili.png",
       "action": "link:https://www.bilibili.tv/en"
+    }
+  ]
     }
   ]
 }
