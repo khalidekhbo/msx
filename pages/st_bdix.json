@@ -34,6 +34,13 @@
       "title": "MovieLinkBD",
       "icon": "tv",
       "action": "link:http://e7htac.movielinkbd.li/"
+    },
+    {
+      "type": "default",
+      "layout": "0,3,3,3",
+      "title": "DhakaMovie @ AntBD",
+      "icon": "tv",
+      "action": "link:http://DhakaMovie.com/"
     }
   ]
 }
