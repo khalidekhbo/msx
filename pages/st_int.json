@@ -2,9 +2,10 @@
   "type": "pages",
   "headline": "International Streaming",
   "pages": [
-    {
+  {
   "items": [
     {
+      "type": "default",
       "layout": "0,0,4,2",
       "title": "YouTube",
       "icon": "youtube",
@@ -12,6 +13,7 @@
       "action": "link:https://www.youtube.com"
     },
     {
+      "type": "default",
       "layout": "4,0,4,2",
       "title": "StreamIMDb",
       "icon": "search",
@@ -19,6 +21,7 @@
       "action": "link:https://www.streamimdb.ru"
     },
     {
+      "type": "default",
       "layout": "8,0,4,2",
       "title": "BiliBili",
       "icon": "tv",
@@ -26,6 +29,6 @@
       "action": "link:https://www.bilibili.tv/en"
     }
   ]
-    }
-  ]
+ }
+ ]
 }
