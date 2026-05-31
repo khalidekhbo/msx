@@ -6,7 +6,7 @@
             "label": "IPTV"
         },
         {
-            "icon": "tv",
+            "icon": "live-tv",
             "label": "GHub",
             "data": "http://msx.benzac.de/services/m3u.php?headline=GHub&type=video&mode=extended-header&url=https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/tv.m3u"
         },
