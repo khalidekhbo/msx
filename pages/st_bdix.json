@@ -10,7 +10,7 @@
       "title": "Circle Network",
       "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/cftp.png",
       "imageFiller": "smart",
-      "action": "link:https://new.circleftp.net"      
+      "action": "link:http://new.circleftp.net"      
     },
     {
       "type": "default",
@@ -18,7 +18,7 @@
       "title": "Circle HD",
       "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/cftp.png",
       "imageFiller": "smart",
-      "action": "link:https://hd.circleftp.net"
+      "action": "link:http://hd.circleftp.net"
     },
     {
       "type": "default",
@@ -26,14 +26,14 @@
       "title": "RoarZone",
       "imageFiller": "smart",
       "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/roarzone.png",
-      "action": "link:https://play.roarzone.net/web/index.html"
+      "action": "link:http://play.roarzone.net/web/index.html"
     },
     {
       "type": "default",
       "layout": "9,0,3,3",
       "title": "MovieLinkBD",
       "icon": "tv",
-      "action": "link:https://e7htac.movielinkbd.li/"
+      "action": "link:http://e7htac.movielinkbd.li/"
     }
   ]
 }
