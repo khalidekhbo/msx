@@ -6,7 +6,7 @@
   "items": [
     {
       "type": "default",
-      "layout": "0,0,3,2",
+      "layout": "0,0,3,3",
       "title": "Circle Network",
       "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/cftp.png",
       "imageFiller": "smart",
@@ -14,7 +14,7 @@
     },
     {
       "type": "default",
-      "layout": "3,0,3,2",
+      "layout": "3,0,3,3",
       "title": "Circle HD",
       "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/cftp.png",
       "imageFiller": "smart",
@@ -22,7 +22,7 @@
     },
     {
       "type": "default",
-      "layout": "6,0,3,2",
+      "layout": "6,0,3,3",
       "title": "RoarZone",
       "imageFiller": "smart",
       "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/roarzone.png",
@@ -30,7 +30,7 @@
     },
     {
       "type": "default",
-      "layout": "9,0,3,2",
+      "layout": "9,0,3,3",
       "title": "MovieLinkBD",
       "icon": "tv",
       "action": "link:https://e7htac.movielinkbd.li/"
