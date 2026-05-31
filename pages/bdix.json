@@ -6,9 +6,10 @@
       "items": [
         {
           "type": "default",
-          "layout": "0,0,3,2",
+          "layout": "0,0,3,3",
           "title": "IPTV IDN",
           "icon": "tv",
+          "iconSize": "large",
           "action": "link:http://iptvidn.com/"
         },
         {
@@ -16,13 +17,15 @@
           "layout": "3,0,3,2",
           "title": "RoarZone TV",
           "icon": "tv",
-          "action": "link:https://tv.roarzone.net/"
+          "iconSize": "large",
+          "action": "link:http://tv.roarzone.net/"
         },
         {
           "type": "default",
           "layout": "6,0,3,2",
           "title": "BD IPTV",
           "icon": "tv",
+          "iconSize": "large",
           "action": "link:http://tv.bdiptv.net/"
         },
         {
@@ -30,13 +33,15 @@
           "layout": "9,0,3,2",
           "title": "Obiram TV Live",
           "icon": "tv",
-          "action": "link:https://obiramtvlive.pages.dev/"
+          "iconSize": "large",
+          "action": "link:http://obiramtvlive.pages.dev/"
         },
         {
           "type": "default",
           "layout": "0,2,3,2",
           "title": "T Sports",
           "icon": "tv",
+          "iconSize": "large",
           "action": "link:https://www.tsports.com/live-tv"
         },
         {
@@ -51,6 +56,7 @@
           "layout": "6,2,3,2",
           "title": "Free Inter TV",
           "icon": "tv",
+          "iconSize": "large",
           "action": "link:http://www.freeintertv.com/"
         }
       ]
