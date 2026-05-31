@@ -14,7 +14,7 @@
         },
         {
           "type": "default",
-          "layout": "3,0,3,2",
+          "layout": "3,0,3,3",
           "title": "RoarZone TV",
           "icon": "tv",
           "iconSize": "large",
@@ -22,7 +22,7 @@
         },
         {
           "type": "default",
-          "layout": "6,0,3,2",
+          "layout": "6,0,3,3",
           "title": "BD IPTV",
           "icon": "tv",
           "iconSize": "large",
@@ -30,7 +30,7 @@
         },
         {
           "type": "default",
-          "layout": "9,0,3,2",
+          "layout": "9,0,3,3",
           "title": "Obiram TV Live",
           "icon": "tv",
           "iconSize": "large",
@@ -38,7 +38,7 @@
         },
         {
           "type": "default",
-          "layout": "0,2,3,2",
+          "layout": "0,3,3,3",
           "title": "T Sports",
           "icon": "tv",
           "iconSize": "large",
@@ -46,14 +46,14 @@
         },
         {
           "type": "default",
-          "layout": "3,2,3,2",
+          "layout": "3,3,3,3",
           "title": "JagoBD",
           "icon": "tv",
           "action": "link:https://www.jagobd.com/"
         },
         {
           "type": "default",
-          "layout": "6,2,3,2",
+          "layout": "6,3,3,3",
           "title": "Free Inter TV",
           "icon": "tv",
           "iconSize": "large",
