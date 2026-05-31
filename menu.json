@@ -1,0 +1,19 @@
+{
+    "headline": "Media Station X",
+    "menu": [
+       {
+            "type": "separator",
+            "label": "IPTV"
+        },
+        {
+            "icon": "tv",
+            "label": "GHub",
+            "data": "http://msx.benzac.de/services/m3u.php?headline=GHub&type=video&mode=extended-header&url=https://raw.githubusercontent.com/khalidekhbo/msx/main/src/m3u_final/tv.m3u"
+        },
+        {
+            "icon": "tv",
+            "label": "SKY",
+            "data": "http://msx.benzac.de/services/m3u.php?headline=SKY&type=video&mode=extended-header&url=https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/m3u_final/sky.m3u"
+        }
+    ]
+}
