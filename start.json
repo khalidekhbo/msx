@@ -1,6 +1,6 @@
 {
-    "name": "Media Station X",
-    "version": "1.0.2",
+    "name": "MSX@KD",
+    "version": "1.0.0",
     "parameter": "menu:https://raw.githubusercontent.com/khalidekhbo/msx/main/menu.json",
     "launcher": {
         "icon": "pages"
