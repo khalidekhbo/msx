@@ -6,25 +6,25 @@
   "items": [
     {
       "type": "default",
-      "layout": "0,0,4,2",
+      "layout": "0,0,3,3",
       "title": "YouTube",
-      "icon": "youtube",
+      "imageFiller": "smart",
       "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/yt.png",
       "action": "link:https://www.youtube.com"
     },
     {
       "type": "default",
-      "layout": "4,0,4,2",
+      "layout": "3,0,3,3",
       "title": "StreamIMDb",
-      "icon": "search",
+      "imageFiller": "smart",
       "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/imdb.png",
       "action": "link:https://www.streamimdb.ru"
     },
     {
       "type": "default",
-      "layout": "8,0,4,2",
+      "layout": "6,0,3,3",
       "title": "BiliBili",
-      "icon": "tv",
+      "imageFiller": "smart",
       "image": "https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/icons/bilibili.png",
       "action": "link:https://www.bilibili.tv/en"
     }
