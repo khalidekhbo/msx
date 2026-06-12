@@ -19,15 +19,6 @@
             "icon": "sports-soccer",
             "label": "Fifa@SKY",
             "data": "http://msx.benzac.de/services/m3u.php?headline=SKY&type=video&mode=extended-header&url=https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/m3u_final/fifasky.m3u"
-        },
-        {
-            "type": "separator",
-            "label": "Streaming"
-        },
-        {
-            "icon": "Sportzify",
-            "label": "Internet",
-            "data": "https://raw.githubusercontent.com/khalidekhbo/msx/main/pages/sp.json"   
         }
     ]
 }
