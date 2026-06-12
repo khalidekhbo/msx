@@ -1,0 +1,18 @@
+{
+  "type": "pages",
+  "headline": "Sportzfy",
+  "pages": [
+    {
+      "items": [
+        {
+          "type": "default",
+          "layout": "0,0,3,3",
+          "title": "Sportzfy",
+          "icon": "tv",
+          "iconSize": "large",
+          "action": "link:https://sportzfytvlive.xyz/"
+        }            
+      ]
+    }
+  ]
+}
