@@ -3,7 +3,7 @@
     "menu": [
        {
             "type": "separator",
-            "label": "IPTV"
+            "label": "IPTV 📺"
         },
         {
             "icon": "live-tv",
@@ -17,7 +17,7 @@
         },
         {
             "type": "separator",
-            "label": "FifaWC"
+            "label": "FifaWC 🏆"
         },
         {
             "icon": "sports-soccer",
