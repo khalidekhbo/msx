@@ -22,7 +22,7 @@
         },
         {
             "icon": "sports-soccer",
-            "label": "Fifa@SKY",
+            "label": "Fifa10@SKY",
             "data": "http://msx.benzac.de/services/m3u.php?headline=SKY&type=video&mode=extended-header&url=https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/m3u_final/sky@10Gbps.m3u"
         }
     ]
