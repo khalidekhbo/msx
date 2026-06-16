@@ -27,7 +27,7 @@
         {
             "icon": "directions-run",
             "label": "Fifa10@SKY",
-            "data": "http://msx.benzac.de/services/m3u.php?headline=SKY@10Gbps&type=video&mode=extended-header&url=https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/m3u_final/Sky%4010Gbps.m3u"
+            "data": "http://msx.benzac.de/services/m3u.php?headline=FifaSky&type=video&mode=extended-header&url=https://raw.githubusercontent.com/khalidekhbo/msx/refs/heads/main/src/m3u_final/fifasky10.m3u"
         }
     ]
 }
